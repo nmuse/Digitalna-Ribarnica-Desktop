@@ -1,0 +1,618 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [
+                {
+                    "ID": "1",
+                    "typeID": "TitleWindow",
+                    "zOrder": "0",
+                    "w": "1280",
+                    "h": "720",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "112",
+                    "y": "14",
+                    "properties": {
+                        "text": "Digitalna ribarnica"
+                    }
+                },
+                {
+                    "ID": "35",
+                    "typeID": "Button",
+                    "zOrder": "1",
+                    "measuredW": "66",
+                    "measuredH": "27",
+                    "x": "1298",
+                    "y": "55",
+                    "properties": {
+                        "text": "Odjava"
+                    }
+                },
+                {
+                    "ID": "41",
+                    "typeID": "BlockOfText",
+                    "zOrder": "2",
+                    "w": "725",
+                    "h": "120",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "444",
+                    "y": "386"
+                },
+                {
+                    "ID": "43",
+                    "typeID": "Title",
+                    "zOrder": "3",
+                    "measuredW": "190",
+                    "measuredH": "44",
+                    "x": "444",
+                    "y": "109"
+                },
+                {
+                    "ID": "44",
+                    "typeID": "BlockOfText",
+                    "zOrder": "4",
+                    "w": "725",
+                    "h": "120",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "454",
+                    "y": "179"
+                },
+                {
+                    "ID": "45",
+                    "typeID": "Title",
+                    "zOrder": "5",
+                    "measuredW": "190",
+                    "measuredH": "44",
+                    "x": "444",
+                    "y": "327"
+                },
+                {
+                    "ID": "46",
+                    "typeID": "BlockOfText",
+                    "zOrder": "6",
+                    "w": "725",
+                    "h": "120",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "438",
+                    "y": "579"
+                },
+                {
+                    "ID": "47",
+                    "typeID": "Title",
+                    "zOrder": "7",
+                    "measuredW": "190",
+                    "measuredH": "44",
+                    "x": "438",
+                    "y": "522"
+                },
+                {
+                    "ID": "48",
+                    "typeID": "Icon",
+                    "zOrder": "8",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "1050",
+                    "y": "520",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "49",
+                    "typeID": "Icon",
+                    "zOrder": "9",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "1050",
+                    "y": "325",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "50",
+                    "typeID": "Icon",
+                    "zOrder": "10",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "1050",
+                    "y": "122",
+                    "properties": {
+                        "icon": {
+                            "ID": "calendar",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "51",
+                    "typeID": "VerticalScrollBar",
+                    "zOrder": "11",
+                    "h": "670",
+                    "measuredW": "16",
+                    "measuredH": "100",
+                    "x": "1376",
+                    "y": "37"
+                },
+                {
+                    "ID": "63",
+                    "typeID": "Canvas",
+                    "zOrder": "12",
+                    "w": "260",
+                    "h": "521",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "112",
+                    "y": "190"
+                },
+                {
+                    "ID": "64",
+                    "typeID": "Canvas",
+                    "zOrder": "13",
+                    "w": "260",
+                    "h": "162",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "112",
+                    "y": "37"
+                },
+                {
+                    "ID": "65",
+                    "typeID": "Icon",
+                    "zOrder": "14",
+                    "measuredW": "48",
+                    "measuredH": "48",
+                    "x": "218",
+                    "y": "61",
+                    "properties": {
+                        "icon": {
+                            "ID": "user",
+                            "size": "large"
+                        }
+                    }
+                },
+                {
+                    "ID": "66",
+                    "typeID": "Paragraph",
+                    "zOrder": "15",
+                    "w": "84",
+                    "h": "26",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "202",
+                    "y": "141",
+                    "properties": {
+                        "text": "ime i prezime"
+                    }
+                },
+                {
+                    "ID": "67",
+                    "typeID": "__group__",
+                    "zOrder": "16",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "199",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "Canvas",
+                                    "zOrder": "0",
+                                    "w": "260",
+                                    "h": "60",
+                                    "measuredW": "100",
+                                    "measuredH": "70",
+                                    "x": "0",
+                                    "y": "0",
+                                    "properties": {
+                                        "color": "13421772"
+                                    }
+                                },
+                                {
+                                    "ID": "1",
+                                    "typeID": "Paragraph",
+                                    "zOrder": "1",
+                                    "w": "49",
+                                    "h": "26",
+                                    "measuredW": "275",
+                                    "measuredH": "80",
+                                    "x": "86",
+                                    "y": "17",
+                                    "properties": {
+                                        "text": "Početna"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "68",
+                    "typeID": "__group__",
+                    "zOrder": "17",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "319",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "Canvas",
+                                    "zOrder": "0",
+                                    "w": "260",
+                                    "h": "60",
+                                    "measuredW": "100",
+                                    "measuredH": "70",
+                                    "x": "0",
+                                    "y": "0"
+                                },
+                                {
+                                    "ID": "1",
+                                    "typeID": "Paragraph",
+                                    "zOrder": "1",
+                                    "w": "88",
+                                    "h": "26",
+                                    "measuredW": "275",
+                                    "measuredH": "80",
+                                    "x": "86",
+                                    "y": "17",
+                                    "properties": {
+                                        "text": "Ponude"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "69",
+                    "typeID": "__group__",
+                    "zOrder": "18",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "259",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "Canvas",
+                                    "zOrder": "0",
+                                    "w": "260",
+                                    "h": "60",
+                                    "measuredW": "100",
+                                    "measuredH": "70",
+                                    "x": "0",
+                                    "y": "0"
+                                },
+                                {
+                                    "ID": "1",
+                                    "typeID": "Paragraph",
+                                    "zOrder": "1",
+                                    "w": "88",
+                                    "h": "26",
+                                    "measuredW": "275",
+                                    "measuredH": "80",
+                                    "x": "86",
+                                    "y": "17",
+                                    "properties": {
+                                        "text": "Razgovori"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "70",
+                    "typeID": "__group__",
+                    "zOrder": "19",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "559",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "Canvas",
+                                    "zOrder": "0",
+                                    "w": "260",
+                                    "h": "60",
+                                    "measuredW": "100",
+                                    "measuredH": "70",
+                                    "x": "0",
+                                    "y": "0"
+                                },
+                                {
+                                    "ID": "1",
+                                    "typeID": "Paragraph",
+                                    "zOrder": "1",
+                                    "w": "88",
+                                    "h": "26",
+                                    "measuredW": "275",
+                                    "measuredH": "80",
+                                    "x": "86",
+                                    "y": "17",
+                                    "properties": {
+                                        "text": "Postavke"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "71",
+                    "typeID": "Paragraph",
+                    "zOrder": "20",
+                    "w": "49",
+                    "h": "23",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "211",
+                    "y": "624",
+                    "properties": {
+                        "text": "Značke"
+                    }
+                },
+                {
+                    "ID": "72",
+                    "typeID": "Icon",
+                    "zOrder": "21",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "220",
+                    "y": "655",
+                    "properties": {
+                        "icon": {
+                            "ID": "trophy",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "73",
+                    "typeID": "Icon",
+                    "zOrder": "22",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "152",
+                    "y": "655",
+                    "properties": {
+                        "icon": {
+                            "ID": "star",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "74",
+                    "typeID": "Icon",
+                    "zOrder": "23",
+                    "measuredW": "32",
+                    "measuredH": "32",
+                    "x": "288",
+                    "y": "656",
+                    "properties": {
+                        "icon": {
+                            "ID": "star-half-o",
+                            "size": "medium"
+                        }
+                    }
+                },
+                {
+                    "ID": "75",
+                    "typeID": "__group__",
+                    "zOrder": "24",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "379",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "__group__",
+                                    "zOrder": "0",
+                                    "measuredW": "260",
+                                    "measuredH": "60",
+                                    "w": "260",
+                                    "h": "60",
+                                    "x": "0",
+                                    "y": "0",
+                                    "children": {
+                                        "controls": {
+                                            "control": [
+                                                {
+                                                    "ID": "0",
+                                                    "typeID": "Canvas",
+                                                    "zOrder": "0",
+                                                    "w": "260",
+                                                    "h": "60",
+                                                    "measuredW": "100",
+                                                    "measuredH": "70",
+                                                    "x": "0",
+                                                    "y": "0"
+                                                },
+                                                {
+                                                    "ID": "1",
+                                                    "typeID": "Paragraph",
+                                                    "zOrder": "1",
+                                                    "w": "101",
+                                                    "h": "35",
+                                                    "measuredW": "275",
+                                                    "measuredH": "80",
+                                                    "x": "86",
+                                                    "y": "12",
+                                                    "properties": {
+                                                        "text": "Moje ponude\n(ponudite ostale)"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "77",
+                    "typeID": "__group__",
+                    "zOrder": "25",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "499",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "__group__",
+                                    "zOrder": "0",
+                                    "measuredW": "260",
+                                    "measuredH": "60",
+                                    "w": "260",
+                                    "h": "60",
+                                    "x": "0",
+                                    "y": "0",
+                                    "children": {
+                                        "controls": {
+                                            "control": [
+                                                {
+                                                    "ID": "0",
+                                                    "typeID": "Canvas",
+                                                    "zOrder": "0",
+                                                    "w": "260",
+                                                    "h": "60",
+                                                    "measuredW": "100",
+                                                    "measuredH": "70",
+                                                    "x": "0",
+                                                    "y": "0"
+                                                },
+                                                {
+                                                    "ID": "1",
+                                                    "typeID": "Paragraph",
+                                                    "zOrder": "1",
+                                                    "w": "88",
+                                                    "h": "26",
+                                                    "measuredW": "275",
+                                                    "measuredH": "80",
+                                                    "x": "86",
+                                                    "y": "17",
+                                                    "properties": {
+                                                        "text": "Rezervacije"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ID": "78",
+                    "typeID": "__group__",
+                    "zOrder": "26",
+                    "measuredW": "260",
+                    "measuredH": "60",
+                    "w": "260",
+                    "h": "60",
+                    "x": "112",
+                    "y": "439",
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "__group__",
+                                    "zOrder": "0",
+                                    "measuredW": "260",
+                                    "measuredH": "60",
+                                    "w": "260",
+                                    "h": "60",
+                                    "x": "0",
+                                    "y": "0",
+                                    "children": {
+                                        "controls": {
+                                            "control": [
+                                                {
+                                                    "ID": "0",
+                                                    "typeID": "Canvas",
+                                                    "zOrder": "0",
+                                                    "w": "260",
+                                                    "h": "60",
+                                                    "measuredW": "100",
+                                                    "measuredH": "70",
+                                                    "x": "0",
+                                                    "y": "0"
+                                                },
+                                                {
+                                                    "ID": "1",
+                                                    "typeID": "Paragraph",
+                                                    "zOrder": "1",
+                                                    "w": "107",
+                                                    "h": "36",
+                                                    "measuredW": "275",
+                                                    "measuredH": "80",
+                                                    "x": "85",
+                                                    "y": "14",
+                                                    "properties": {
+                                                        "text": "Rezervacije\n(Rezervirali ste)"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "attributes": {
+            "name": "Početna stranica - novosti",
+            "order": 938428.5264654435,
+            "parentID": null
+        },
+        "resourceID": "2278E287-509B-183B-1098-2EC38DDDB7D8",
+        "mockupH": "720",
+        "mockupW": "1280",
+        "measuredW": "1392",
+        "measuredH": "734",
+        "version": "1.0"
+    }
+}

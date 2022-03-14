@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D0EAEE2-AD94-4AD3-B32F-008B860B1E4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Digitalna_ribarnica</RootNamespace>
+    <AssemblyName>Digitalna ribarnica</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Digitalna_ribarnica\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SuiteName>PI001</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>spiro.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net, Version=0.1.4141.31969, Culture=neutral, PublicKeyToken=f3bc8f8c31beeb49, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dnevnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dnevnik.Designer.cs">
+      <DependentUpon>Dnevnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajLokacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajLokacije.Designer.cs">
+      <DependentUpon>DodajLokacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajPonudu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajPonudu.Designer.cs">
+      <DependentUpon>DodajPonudu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajRibu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajRibu.Designer.cs">
+      <DependentUpon>DodajRibu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MojePonude.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MojePonude.Designer.cs">
+      <DependentUpon>MojePonude.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaLozinka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaLozinka.Designer.cs">
+      <DependentUpon>NovaLozinka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviKorisnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviKorisnik.Designer.cs">
+      <DependentUpon>NoviKorisnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna.Designer.cs">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopisKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopisKorisnika.Designer.cs">
+      <DependentUpon>PopisKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PregledPonuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PregledPonuda.Designer.cs">
+      <DependentUpon>PregledPonuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.cs">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PromijeniLozinku.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PromijeniLozinku.Designer.cs">
+      <DependentUpon>PromijeniLozinku.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PromijeniPredefiniranePostavke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PromijeniPredefiniranePostavke.Designer.cs">
+      <DependentUpon>PromijeniPredefiniranePostavke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registracija.Designer.cs">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RibeUSustavu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RibeUSustavu.Designer.cs">
+      <DependentUpon>RibeUSustavu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Terms of service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Terms of service.Designer.cs">
+      <DependentUpon>Terms of service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificationCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificationCode.Designer.cs">
+      <DependentUpon>VerificationCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZaboravljenaLozinkaEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZaboravljenaLozinkaEmail.Designer.cs">
+      <DependentUpon>ZaboravljenaLozinkaEmail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dnevnik.resx">
+      <DependentUpon>Dnevnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajLokacije.resx">
+      <DependentUpon>DodajLokacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajPonudu.resx">
+      <DependentUpon>DodajPonudu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajRibu.resx">
+      <DependentUpon>DodajRibu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MojePonude.resx">
+      <DependentUpon>MojePonude.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaLozinka.resx">
+      <DependentUpon>NovaLozinka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviKorisnik.resx">
+      <DependentUpon>NoviKorisnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna.resx">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopisKorisnika.resx">
+      <DependentUpon>PopisKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PregledPonuda.resx">
+      <DependentUpon>PregledPonuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromijeniLozinku.resx">
+      <DependentUpon>PromijeniLozinku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromijeniPredefiniranePostavke.resx">
+      <DependentUpon>PromijeniPredefiniranePostavke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registracija.resx">
+      <DependentUpon>Registracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RibeUSustavu.resx">
+      <DependentUpon>RibeUSustavu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terms of service.resx">
+      <DependentUpon>Terms of service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificationCode.resx">
+      <DependentUpon>VerificationCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZaboravljenaLozinkaEmail.resx">
+      <DependentUpon>ZaboravljenaLozinkaEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Help\digitalna_ribarnica.chm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="spiro.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Baza\Baza.csproj">
+      <Project>{995435a5-41eb-4598-8db3-31f7deb18cd7}</Project>
+      <Name>Baza</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chat\Chat.csproj">
+      <Project>{33f0165b-e052-4c91-a77d-2de05a597a66}</Project>
+      <Name>Chat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\INSform\INSform.csproj">
+      <Project>{7a77ea37-d108-414a-abf4-b04cd1517d2e}</Project>
+      <Name>INSform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lokacije\Lokacije.csproj">
+      <Project>{681cb769-455e-4801-9865-cf031aefb695}</Project>
+      <Name>Lokacije</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ocjene\Ocjene.csproj">
+      <Project>{63ba02d3-4700-4262-a7b3-7597fa12a168}</Project>
+      <Name>Ocjene</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ponude\Ponude.csproj">
+      <Project>{1fb0c138-1351-49c3-a94c-8f80978c17d6}</Project>
+      <Name>Ponude</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prijava\Prijava.csproj">
+      <Project>{c404d9ae-55c8-4acb-9932-3d198bb005b7}</Project>
+      <Name>Prijava</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Registracija\Registracija.csproj">
+      <Project>{893256ce-d8c3-4856-88bd-d2b18bc448f4}</Project>
+      <Name>Registracija</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RibeUSustavu\RibeUSustavu.csproj">
+      <Project>{b61fbbe0-0c61-4edf-98ad-cd502c2b699c}</Project>
+      <Name>RibeUSustavu</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
